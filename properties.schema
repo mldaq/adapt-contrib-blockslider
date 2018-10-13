@@ -14,10 +14,10 @@
         "course": {
           "type": "object",
           "properties": {
-            "_blockSlider": {
+            "_blockSliderModified": {
               "type": "object",
               "required": false,
-              "legend": "BlockSlider",
+              "legend": "Block Slider (modified)",
               "properties": {
                 "_isEnabled": {
                   "type": "boolean",
@@ -38,10 +38,10 @@
         "article": {
           "type": "object",
           "properties": {
-            "_blockSlider": {
+            "_blockSliderModified": {
               "type":"object",
               "required":false,
-              "legend": "BlockSlider",
+              "legend": "Block Slider (modified)",
               "properties": {
                 "_isEnabled": {
                   "type": "boolean",

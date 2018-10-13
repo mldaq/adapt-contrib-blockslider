@@ -45,7 +45,7 @@ define([
       },
 
       setInitialSlide: function() {
-        var initialSlide = this.model.get('_blockSlider')._initial ? this.model.get('_blockSlider')._initial-1 : 0;
+        var initialSlide = this.model.get('_blockSliderModified')._initial ? this.model.get('_blockSliderModified')._initial-1 : 0;
         var movementSize = this.$('.blockslider-container').width();
         this.$('.blockslider').css({'margin-left': - (movementSize * initialSlide)});
         this.setStage(initialSlide);

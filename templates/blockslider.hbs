@@ -1,8 +1,8 @@
 {{! Maintainers - Kevin Corry}}
 <div class="blockslider-controls-container">
-    {{#if _blockSlider._tabs._isActive}}
+    {{#if _blockSliderModified._tabs._isActive}}
         {{#each _blocks}}
-            {{#if ../_blockSlider._tabs._useBlockTitle}}
+            {{#if ../_blockSliderModified._tabs._useBlockTitle}}
                 <button class="base blockslider-tab blockslider-text-tab blockslider-tab-{{attributes._id}} index-{{@index}}">
                     {{attributes.title}}
                 </button>
@@ -12,7 +12,7 @@
         {{/each}}
     {{/if}}
 
-    {{#if _blockSlider._arrows._isActive}}
+    {{#if _blockSliderModified._arrows._isActive}}
         <button class="base blockslider-controls blockslider-control-left blockslider-hidden">
             <div class="icon icon-controls-left"></div>
         </button>

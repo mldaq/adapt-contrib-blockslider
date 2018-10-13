@@ -5,7 +5,7 @@
     "title": "",
     "displayTitle": "",
     "body": "",
-    "_blockSlider": {
+    "_blockSliderModified": {
         "_isEnabled": true
     }
 }
@@ -18,7 +18,7 @@
     "_classes":"",
     "title":"An article with a blockslider",
     "body":"Some components have more advanced features.",
-    "_blockSlider":{
+    "_blockSliderModified":{
         "_isEnabled": true,
         "_arrows": {
             "_isActive": true
